@@ -6,7 +6,7 @@ class MercadolivreSpider(scrapy.Spider):
     allowed_domains = ["lista.mercadolivre.com.br"]
     start_urls = ["https://lista.mercadolivre.com.br/notebook"]
     page_count = 1
-    max_pages = 20
+    max_pages = 10
 
     def parse(self, response):
         products = response.css("div.poly-card__content")
