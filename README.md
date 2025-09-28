@@ -227,6 +227,6 @@ Agora, a spider coleta notebooks com nome, marca, preço, avaliações e vendedo
 
 ---
 
-## 🏁 Finalizamos a coleta!
+## 🏁 Finalizamos a coleta
 
 O próximo passo é criar transformações (por exemplo, limpeza de preços e normalização dos nomes) e visualizações (como dashboards com Streamlit, Dash ou Power BI).
